@@ -141,7 +141,7 @@ nav ul li a {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.container {
+.container-contacto {
   display: grid;
   grid-template-columns: 200px 200px 200px;
   grid-template-rows: 250px 250px 250px;
@@ -149,6 +149,11 @@ nav ul li a {
   justify-content: space-evenly;
   margin: 0 auto;
   width: 800px;
+}
+.container-tienda {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 250px 250px 250px;
 }
 
 .grid-title {
