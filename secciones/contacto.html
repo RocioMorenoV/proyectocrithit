@@ -56,42 +56,44 @@
       </nav>
     </header>
     <main class="texto-main formulario">
-      <div class="container mt-3">
-        <form action="/action_page.php">
-          <div class="mb-3 mt-3">
-            <label for="Name">Name:</label>
-            <input
-              type="name"
-              class="form-control"
-              id="name"
-              placeholder="Enter your name"
-              name="name"
-            />
-          </div>
-          <div class="form-check mb-3">
-            <label class="form-check-label">
-              <input class="form-check-input" type="checkbox" name="human?" />
-              Do you wish to receive a response?
-            </label>
-          </div>
-        </form>
-      </div>
-      <div class="container mt-3">
-        <h2>Please tell us what's on your mind</h2>
-        <form action="/action_page.php">
-          <div class="mb-3 mt-3">
-            <label for="comment">Comments:</label>
-            <textarea
-              class="form-control"
-              rows="5"
-              id="comment"
-              name="text"
-            ></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary boton-color">
-            Submit
-          </button>
-        </form>
+      <div class="div-control-form">
+        <div class="container mt-3">
+          <form action="/action_page.php">
+            <div class="mb-3 mt-3">
+              <label for="Name"></label>
+              <input
+                type="name"
+                class="form-control"
+                id="name"
+                placeholder="Enter your name"
+                name="name"
+              />
+            </div>
+            <div class="form-check mb-3">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="human?" />
+                Do you wish to receive a response?
+              </label>
+            </div>
+          </form>
+        </div>
+        <div class="container mt-3">
+          <h2>Please tell us what's on your mind</h2>
+          <form action="/action_page.php">
+            <div class="mb-3 mt-3">
+              <label for="comment">Comments:</label>
+              <textarea
+                class="form-control"
+                rows="5"
+                id="comment"
+                name="text"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary boton-color">
+              Submit
+            </button>
+          </form>
+        </div>
       </div>
     </main>
     <footer>

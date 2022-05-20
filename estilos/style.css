@@ -189,9 +189,14 @@ nav ul li a {
 }
 .boton-color {
   background-color: rgb(156, 11, 11);
+  border: rgb(0, 0, 0);
 }
 .boton-color:hover {
   background-color: rgb(78, 7, 7);
+}
+.div-control-form {
+  display: block;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 1600px) and (min-width: 1024px) {
