@@ -187,6 +187,12 @@ nav ul li a {
   height: 30px;
   margin: auto 0;
 }
+.boton-color {
+  background-color: rgb(156, 11, 11);
+}
+.boton-color:hover {
+  background-color: rgb(78, 7, 7);
+}
 
 @media only screen and (max-width: 1600px) and (min-width: 1024px) {
   .container {
