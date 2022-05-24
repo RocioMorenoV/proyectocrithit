@@ -54,7 +54,7 @@ nav ul li a {
   margin: 0 2vw;
 }
 .text-change {
-  font-family: "Mukta", sans-serif;
+  font-family: "Raleway", sans-serif;
   margin-top: 50px;
 }
 .boton {
@@ -197,6 +197,22 @@ nav ul li a {
 .div-control-form {
   display: block;
   justify-content: center;
+}
+.link-aboutus {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  margin-top: 10px;
+}
+.about-us-title {
+  margin-top: 30px;
+  font-family: "Raleway", sans-serif;
+}
+.about-us-text {
+  margin-top: 30px;
+  display: block;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
 }
 
 @media only screen and (max-width: 1600px) and (min-width: 1024px) {
