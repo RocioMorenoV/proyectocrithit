@@ -135,6 +135,7 @@ nav ul li a {
 }
 .formulario {
   font-family: Arial, Helvetica, sans-serif;
+  padding-top: 200px;
 }
 .formulario-titulo {
   font-size: xx-large;
@@ -210,9 +211,23 @@ nav ul li a {
 }
 .about-us-text {
   margin-top: 30px;
-  display: block;
+  display: flex;
   justify-content: center;
   font-family: "Raleway", sans-serif;
+  padding: 100px;
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+.imagen-about {
+  border: 5px solid rgb(124, 6, 6);
+  height: 15vw;
+  margin-top: 0;
+}
+.imagen-team {
+  border: 5px solid rgb(124, 6, 6);
+  height: 15vw;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 1600px) and (min-width: 1024px) {
@@ -227,8 +242,17 @@ nav ul li a {
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 426px) {
+  header {
+    height: 150px;
+    flex-direction: column;
+  }
+  .logo-container {
+    justify-content: center;
+    margin-left: 0;
+  }
   .navbar-container {
-    display: none;
+    justify-content: center;
+    align-items: center;
   }
 
   .imagen-main {
@@ -283,8 +307,29 @@ nav ul li a {
 }
 
 @media only screen and (max-width: 425px) {
+  header {
+    height: 150px;
+    flex-direction: column;
+  }
+  .boton {
+    font-size: 11px;
+  }
+  .titulo {
+    font-size: 40px;
+  }
+  .logo20 {
+    height: 45px;
+  }
+  .logo {
+    height: 45px;
+  }
+  .logo-container {
+    justify-content: center;
+    margin-left: 0;
+  }
   .navbar-container {
-    display: none;
+    justify-content: center;
+    align-items: center;
   }
 
   .imagen-main {
