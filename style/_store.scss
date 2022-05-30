@@ -1,0 +1,28 @@
+.container-tienda {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 250px 250px 250px;
+  }
+  
+  .grid-title {
+    font-weight: bolder;
+    font-size: 48px;
+    margin-top: 15px;
+  }
+  
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .grid-item-title {
+    font-weight: 300;
+  }
+  .grid-item-image {
+    height: 100px;
+    margin: 10px auto;
+    border: solid black;
+    border-radius: 16px;
+    padding: 1px;
+  }

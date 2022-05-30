@@ -1,0 +1,25 @@
+.formulario-titulo {
+    font-size: xx-large;
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+  .container-contacto {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 250px 250px 250px;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 800px;
+  }
+  .boton-color {
+    background-color: rgb(136, 9, 9);
+    border: rgb(0, 0, 0);
+  }
+  .boton-color:hover {
+    background-color: rgb(78, 7, 7);
+  }
+  .div-control-form {
+    display: block;
+    justify-content: center;
+  }
