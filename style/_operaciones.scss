@@ -1,0 +1,19 @@
+$blancoPasion: rgb(247, 244, 242);
+$rojopasion: rgb(124, 6, 6);
+
+$font-sizes: (
+  "small": 12px,
+  "normal": 18px,
+  "large": 24px,
+  "veryLarge": 55px,
+);
+
+.titulo-grande {
+  font-size: map-get($font-sizes, "veryLarge");
+  font-family: "Mukta", sans-serif;
+}
+
+@mixin titulo {
+  @extend .titulo-grande;
+  color: white;
+}

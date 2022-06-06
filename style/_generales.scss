@@ -1,3 +1,4 @@
+@import "operaciones";
 * {
     padding: 0;
     margin: 0px;
@@ -33,9 +34,7 @@
     min-height: 100vh;
   }
   .titulo {
-    color: white;
-    font-size: 55px; 
-    font-family: "Mukta", sans-serif;
+    @include titulo;
   }
   header {
     display: flex;
@@ -80,8 +79,8 @@
     bottom: 0;
     margin-bottom: 0;
     padding-left: 10px;
-    background-color: rgb(124, 6, 6);
-    color: rgb(247, 244, 242);
+    background-color: $rojopasion;
+    color: $blancoPasion;
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
   }

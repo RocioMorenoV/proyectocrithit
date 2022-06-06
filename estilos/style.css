@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+.titulo-grande, .titulo {
+  font-size: 55px;
+  font-family: "Mukta", sans-serif;
+}
+
 * {
   padding: 0;
   margin: 0px;
@@ -41,8 +46,6 @@ body {
 
 .titulo {
   color: white;
-  font-size: 55px;
-  font-family: "Mukta", sans-serif;
 }
 
 header {
@@ -345,6 +348,11 @@ footer {
   border: solid black;
   border-radius: 16px;
   padding: 1px;
+}
+
+.titulo-grande, .titulo {
+  font-size: 55px;
+  font-family: "Mukta", sans-serif;
 }
 
 @media only screen and (max-width: 1600px) and (min-width: 1024px) {
