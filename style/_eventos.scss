@@ -1,0 +1,10 @@
+.cards-container{
+    // display: flex;
+    // display: grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card{
+    display: flex;
+    justify-content: left;
+}

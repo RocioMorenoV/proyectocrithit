@@ -8,8 +8,8 @@
     font-weight: bolder;
     font-size: 48px;
     margin-top: 15px;
+    
   }
-  
   .grid-item {
     display: flex;
     flex-direction: column;
@@ -22,7 +22,6 @@
   .grid-item-image {
     height: 100px;
     margin: 10px auto;
-    border: solid black;
     border-radius: 16px;
     padding: 1px;
   }
