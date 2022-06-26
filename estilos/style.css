@@ -153,13 +153,11 @@ footer {
 
 .text-change {
   font-family: "Raleway", sans-serif;
-  margin-top: 50px;
   font-size: xx-large;
 }
 .nav-link-main {
   display: grid;
   grid-template-columns: 200px 200px 200px 200px;
-  grid-template-rows: 250px 250px 250px 250px;
 }
 .promise-1 {
   font-weight: bolder;
@@ -169,14 +167,15 @@ footer {
   background-color: #e7e9f1;
   margin: 0;
   height: 100px;
-  padding-top: 30px;
-  width: 100%;
+  line-height: 100px;
+  width: 99.2vw;
 }
 .imagen-mas-texto {
   justify-content: left;
-  width: 100%;
+  width: 99.2vw;
   background-color: #e7e9f1;
   height: 600px;
+  line-height: 600px;
   display: flex;
   flex-direction: row-reverse;
   margin-top: 50px;
@@ -207,22 +206,22 @@ footer {
 
 .imagen-main {
   border: solid rgb(78, 13, 13);
-  margin-left: 50px;
-  margin-top: 60px;
+  margin-left: 5vw;
   margin-bottom: 0;
   height: 25vw;
+  max-height: 450px;
   box-shadow: 10px 10px 5px rgb(99, 98, 98);
 }
 
 .parrafo {
-  padding-left: 100px;
-  padding-top: 80px;
-  height: 25vw;
+  padding-left: 5vw;
   max-width: 60vw;
   text-align: center;
-  margin-top: 80px;
   background-color: #e7e9f1;
   color: #3b0202;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
 }
 .div-video {
   padding-bottom: 20px;
@@ -241,6 +240,10 @@ footer {
   border: solid;
   border-color: #3b0202;
   box-shadow: 10px 10px 5px rgb(99, 98, 98);
+  height: 45vw;
+  width: 80vw;
+  max-width: 900px;
+  max-height: 600px;
 }
 .titulo-video {
   font-size: larger;
@@ -254,8 +257,10 @@ footer {
   flex-direction: column;
   align-items: center;
   margin-top: 25px;
-  height: 200px;
-  width: 100%;
+  height: 20vw;
+  max-height: 250px;
+  min-height: 160px;
+  width: 99.2vw;
   background-color: #e7e9f1;
   color: #3b0202;
 }
@@ -269,20 +274,20 @@ footer {
   justify-content: center;
 }
 .sup-logo-pathfinder {
-  padding-right: 200px;
-  height: 100px;
-  width: 600px;
+  padding-right: 5vw;
+  height: 8vw;
+  max-height: 100px;
 }
 .sup-logo-dnd {
-  padding-right: 50px;
-  height: 100px;
-  width: 350px;
+  padding-right: 5vw;
+  height: 8vw;
+  max-height: 100px;
 }
 .sup-logo-wizards {
-  padding-left: 100px;
-  padding-right: 100px;
-  height: 100px;
-  width: 350px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  height: 8vw;
+  max-height: 100px;
 }
 
 .link-aboutus {
@@ -299,13 +304,13 @@ footer {
 }
 
 .about-us-title {
+  display: flex;
+  justify-content: center;
   background-color: aliceblue;
   color: #4e0707;
-  border: solid;
-  border-color: #4e0707;
-  padding-left: 175px;
-  padding-right: 175px;
-  margin-top: 30px;
+  margin-top: 0px;
+  padding: 0 5vw;
+  width: 89.2vw;
   font-family: "Raleway", sans-serif;
 }
 
@@ -313,36 +318,52 @@ footer {
   padding-top: 50px;
   background-color: aliceblue;
   color: #4e0707;
-  border: solid;
-  border-color: #4e0707;
-  margin: 50px;
   margin-top: 30px;
+  width: 89.2vw;
   display: flex;
   justify-content: center;
   font-family: "Raleway", sans-serif;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 10vw 5vw;
+}
+.about-us-text-2 {
+  background-color: aliceblue;
+  color: #4e0707;
+  margin-top: 30px;
+  width: 89.2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  padding: 5vw;
+}
+.signed {
+  font-style: italic;
+  font-size: larger;
 }
 
 .imagen-about {
   border: 5px solid #ffffff;
-  height: 15vw;
-  margin-top: 0;
+  height: 25vw;
+  margin-top: 20px;
   background-color: aliceblue;
+  box-shadow: 10px 10px 5px rgb(51, 1, 1);
 }
 
 .imagen-team {
-  border: 5px solid #3b0202;
-  height: 15vw;
-  margin-top: 0;
-  margin-bottom: 20px;
+  border: 5px solid #ffffff;
+  height: 25vw;
+  margin: 20px;
+  box-shadow: 10px 10px 5px rgb(51, 1, 1);
 }
 
 .formulario-titulo {
+  display: flex;
+  background-color: #3b0202;
+  justify-content: center;
   font-size: xx-large;
   margin-top: 200px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
+  padding: 20px;
 }
 
 .container-contacto {
@@ -367,6 +388,11 @@ footer {
 .div-control-form {
   display: block;
   justify-content: center;
+  background-color: #3b0202;
+  display: flex;
+  flex-direction: column;
+  width: 99.2vw;
+  padding-bottom: 20px;
 }
 
 .container-tienda {
@@ -374,42 +400,37 @@ footer {
   row-gap: 40px;
   column-gap: 40px;
   display: grid;
-  grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 250px 250px 250px;
+  grid-template-columns: 300px 300px 300px;
+  margin-bottom: 20px;
 }
 
 .grid-title {
-  padding-top: 0;
-  padding-bottom: 0;
-  color: rgb(255, 255, 255);
-  margin: 30px;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #e7e9f1;
+  color: rgb(99, 6, 6);
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 30px;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 20px;
   padding-bottom: 40px;
   font-weight: bolder;
-  font-size: 48px;
-  margin-top: 15px;
+  font-size: 45px;
   font-family: Arial, Helvetica, sans-serif;
+}
+.price-item {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: medium;
 }
 .grid-item-description {
   font-family: Arial, Helvetica, sans-serif;
 }
 .grid-item {
   font-size: 12px;
-  height: 300px;
-  color: #4e0707;
-  background-color: aliceblue;
-  border: solid;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-.grid-item-v2 {
-  font-size: 20px;
   height: 300px;
   color: #4e0707;
   background-color: aliceblue;
@@ -440,23 +461,24 @@ footer {
 .cards-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 50px;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 40px 50px;
 }
 .card {
   border: solid;
   background: rgb(99, 3, 3);
-  margin: 50px;
-  padding: 22px;
-  width: 17vw;
+  padding: 10px;
   min-height: 200px;
   color: rgb(90, 7, 7);
   background-color: aliceblue;
 }
 .events-title {
+  margin-top: 0;
   flex-direction: column;
   display: flex;
   text-align: center;
-  width: 100%;
+  width: 99vw;
   padding-top: 10px;
   padding-bottom: 10px;
   color: rgb(83, 6, 6);
@@ -499,7 +521,7 @@ footer {
     align-items: center;
   }
   .imagen-main {
-    height: 40vw;
+    height: 30vw;
   }
   .texto-main {
     font-size: large;
@@ -538,7 +560,26 @@ footer {
     margin-right: 6vw;
   }
   .container-tienda {
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .text-change {
+    font-size: large;
+  }
+  .imagen-mas-texto {
+    height: 400px;
+    line-height: 400px;
+  }
+  .titulo-video {
+    font-size: large;
+  }
+  .cards-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-us-title {
+    font-size: x-large;
+  }
+  .formulario-titulo {
+    margin-top: 100px;
   }
 }
 
@@ -608,6 +649,35 @@ footer {
   }
   .container-tienda {
     grid-template-columns: 1fr;
+  }
+  .text-change {
+    font-size: medium;
+  }
+  .imagen-mas-texto {
+    height: fit-content;
+    line-height: normal;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .titulo-video {
+    font-size: medium;
+  }
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+  .about-us-title {
+    font-size: large;
+  }
+  .about-us-text {
+    font-size: medium;
+  }
+  .about-us-text-2 {
+    font-size: medium;
+  }
+  .formulario-titulo {
+    margin-top: 50px;
   }
 }
 
